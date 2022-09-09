@@ -1,0 +1,52 @@
+#score{
+    margin-left: 5px;
+    font-size: 50px;
+}
+#timer{
+    float: right;
+    margin-right: 5px;
+    font-size: 50px;
+}
+body{
+    background-color: greenyellow;
+    font-family: 'Cabin Sketch', cursive;
+    
+}
+h1{
+    background-color: cornsilk;
+    color: rgb(38,0,255);
+    font-size: 70px;
+}
+#show_sketch{
+    float: right;
+}
+p{
+    font-size: 50px;
+    color: black;
+}
+#sketch_to_be_drawn{
+    font-size: 50px;
+    color: red;
+}
+#show_sketch
+{
+    font-size: 25px;
+}
+
+canvas
+{
+    border: 5px solid black;
+    border-radius: 10px;
+    margin-top: 150px;
+    animation-name: anime;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+   
+}
+
+@keyframes anime
+{
+    from{box-shadow: 10px 10px 50px  red;}
+    to{box-shadow: 10px 10px 50px whitesmoke;}
+
+}
